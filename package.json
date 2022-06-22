@@ -1,0 +1,8 @@
+{
+  "name": "typescript-develop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/renji-itoyama/typescript-develop.git",
+  "author": "renji-itoyama <renjirober.renji@gmail.com>",
+  "license": "MIT"
+}
