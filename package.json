@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/renji-itoyama/typescript-develop.git",
   "author": "renji-itoyama <renjirober.renji@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
 }
