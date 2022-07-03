@@ -1,24 +1,24 @@
-export{}
+export {}
 
 type Pitcher1 = {
-  throwingSpeed: number;
-};
+  throwingSpeed: number
+}
 
 type Batter1 = {
-  battingAverage: number;
-};
-
+  battingAverage: number
+}
 const DaimajinSasaki: Pitcher1 = {
-  throwingSpeed: 154
-};
+  throwingSpeed: 154,
+}
 
 const Ochiai: Batter1 = {
-  battingAverage: 0.367
-};
+  battingAverage: 0.367,
+}
 
-type TwoWay = Pitcher1 & Batter1;
+type TwoWay = Pitcher1 & Batter1
 
 const Otani: TwoWay = {
   throwingSpeed: 165,
-  battingAverage: 0.286
-};
+  battingAverage: 0.286,
+}
+const aaa = () => console.log('aaa')

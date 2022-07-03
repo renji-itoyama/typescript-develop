@@ -1,4 +1,4 @@
-export{}
+export {}
 
-let isFinished: boolean = true;
+let isFinished: boolean = true
 // isFinished = 1;

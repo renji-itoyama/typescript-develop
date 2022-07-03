@@ -1,24 +1,23 @@
-export{};
+export {}
 
-type Mojiretu = string;
+type Mojiretu = string
 
-const fooString: string  = "Hello";
-const fooMojiretu: Mojiretu = "Hello";
-
+const fooString: string = 'Hello'
+const fooMojiretu: Mojiretu = 'Hello'
 
 const example = {
-  name: "Ham",
+  name: 'Ham',
   age: 43,
-};
+}
 
 type Profile = {
-  name: string;
-  age: number;
-};
+  name: string
+  age: number
+}
 
-const example2: Profile  = {
-  name: "Ham",
+const example2: Profile = {
+  name: 'Ham',
   age: 43,
-};
+}
 
-type Profile2 = typeof example;
+type Profile2 = typeof example

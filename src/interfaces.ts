@@ -1,16 +1,16 @@
-export{};
+export {}
 
 type ObjectType = {
-  name: string; 
+  name: string
   age: number
-};
+}
 
 interface ObjectInterface {
-  name: string;
-  age: number;
+  name: string
+  age: number
 }
 
 let object: ObjectInterface = {
-  name: "Ham-san",
-  age: 43
-};
+  name: 'Ham-san',
+  age: 43,
+}
